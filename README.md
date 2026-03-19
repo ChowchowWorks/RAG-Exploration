@@ -3,11 +3,11 @@ This is a rag pipeline that is meant to be integrated into a business platform t
 The files uploaded in this repository are versions of the RAG Pipeline that builds from a basic RAG with minimal features in version 1 to a RAG pipeline that encompasses more advanced features to enhance responses.
 Codes from this repository follow closely the codes by @riancemartin in his rag-from-scratch series. 
 
-# A Brief Overview of RAG
+## A Brief Overview of RAG
 Retrieval-Augmented Generation (RAG) is a technique that enhances the capabilities of Large Language Models (LLMs) by incorporating external knowledge sources. Instead of relying solely on the model’s pre-trained parameters, RAG allows the model to retrieve relevant information from custom documents or databases at query time. This makes it possible to generate more accurate, context-specific, and up-to-date responses, especially in specialized domains.
 By integrating retrieval with generation, a RAG pipeline enables the LLM to access domain-specific content dynamically—without the need for retraining—offering more relevant and grounded answers based on the imported knowledge base.
 
-# Version Descriptions 
+## Version Descriptions 
 The text below documents the code interpretation of each version as well as the intent of the version and in some cases, its evaluation.
 
 ### Version 1
